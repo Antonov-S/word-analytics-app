@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function Warning() {
+export default function Warning({ warningText }) {
     return (
-        <p className='warning'>No script tag allowed!</p>
+        <p className='warning'>{warningText}</p>
     )
 }
